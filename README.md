@@ -3,12 +3,12 @@
 ### Add Members to the family tree
 Example:
 ```
-./cmd/add_member/add_members -parent=rangu/akkamma/babi/venkatramana -gender=m Gautham
+./cmd/add_member/add_members -parent=rajyabala -gender=m name
 ```
 
 ### Tree
 ```
-https://kidiyoor.github.io/family/
+https://bhuyanrashmi.github.io/family/
 ```
 
 ### Reference

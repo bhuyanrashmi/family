@@ -3,7 +3,7 @@ package tree
 import (
 	"fmt"
 
-	"kidiyoor.io/family-tree/pkg/types"
+	"bhuyan.io/family-tree/pkg/types"
 )
 
 // Display the family tree.

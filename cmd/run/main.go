@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"kidiyoor.io/family-tree/pkg/members"
-	"kidiyoor.io/family-tree/pkg/tree"
+	"bhuyan.io/family-tree/pkg/members"
+	"bhuyan.io/family-tree/pkg/tree"
 )
 
 func main() {

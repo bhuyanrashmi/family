@@ -11,7 +11,7 @@ import (
 	"os"
 	"strings"
 
-	"kidiyoor.io/family-tree/pkg/types"
+	"bhuyan.io/family-tree/pkg/types"
 )
 
 func main() {
@@ -43,7 +43,7 @@ func main() {
 		gender = "Female"
 	}
 
-	parentDir := os.Getenv("GOPATH") + "/src/kidiyoor.io/family-tree/pkg/members" + "/" + parent
+	parentDir := os.Getenv("GOPATH") + "/src/bhuyan.io/family-tree/pkg/members" + "/" + parent
 	packageName := strings.ToLower(strings.ReplaceAll(m.Name, " ", ""))
 	nameTitle := strings.Title(packageName)
 	newDir := parentDir + "/" + packageName
@@ -55,7 +55,7 @@ func main() {
 		log.Fatal("Unable to create new Dir, ", err)
 	}
 
-	f, err := ioutil.ReadFile(os.Getenv("GOPATH") + "/src/kidiyoor.io/family-tree/cmd/add_member/template_self.go.txt")
+	f, err := ioutil.ReadFile(os.Getenv("GOPATH") + "/src/bhuyan.io/family-tree/cmd/add_member/template_self.go.txt")
 	if err != nil {
 		os.Remove(newDir)
 		log.Fatal(err)
@@ -113,7 +113,7 @@ func main() {
 
 		if !importAdded && line == ")\n" {
 			importAdded = true
-			lines = append(lines, "  \"kidiyoor.io/family-tree/pkg/members/"+parent+"/"+packageName+"\"\n")
+			lines = append(lines, "  \"bhuyan.io/family-tree/pkg/members/"+parent+"/"+packageName+"\"\n")
 			lines = append(lines, line)
 			continue
 		}
