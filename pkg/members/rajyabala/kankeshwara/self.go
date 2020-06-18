@@ -9,7 +9,7 @@ import (
 var (
   // Kankeshwara is a member of the family.
   Kankeshwara = types.Member{
-    Name: "Kankeshwara",
+    Name: "Kankeshwara(boro)",
     Children: []*types.Member{&mausam.Mausam, &roshan.Roshan, },
     Gender: types.Male,
   }

@@ -7,7 +7,7 @@ import (
 var (
   // Mausam is a member of the family.
   Mausam = types.Member{
-    Name: "Mausam",
+    Name: "Mausam(baba)",
     Children: []*types.Member{},
     Gender: types.Male,
   }

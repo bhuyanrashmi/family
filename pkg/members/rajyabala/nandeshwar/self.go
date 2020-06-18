@@ -8,7 +8,7 @@ import (
 var (
   // Nandeshwar is a member of the family.
   Nandeshwar = types.Member{
-    Name: "Nandeshwar",
+    Name: "Nandeshwar(dhunu)",
     Children: []*types.Member{&trinanda.Trinanda, },
     Gender: types.Male,
   }
