@@ -8,7 +8,7 @@ import (
 var (
   // Suchitra is a member of the family.
   Suchitra = types.Member{
-    Name: "Suchitra",
+    Name: "Suchitra - Utanga",
     Children: []*types.Member{&rashmi.Rashmi, },
     Gender: types.Female,
   }

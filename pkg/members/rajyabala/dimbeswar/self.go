@@ -9,7 +9,7 @@ import (
 var (
   // Dimbeswar is a member of the family.
   Dimbeswar = types.Member{
-    Name: "Dimbeswar(maju)",
+    Name: "Dimbeswar-Sabita",
     Children: []*types.Member{&debango.Debango, &raunak.Raunak, },
     Gender: types.Male,
   }

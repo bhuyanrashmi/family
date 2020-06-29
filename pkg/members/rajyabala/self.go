@@ -11,7 +11,7 @@ import (
 var (
 	// Rajyabala is a family member.
 	Rajyabala = types.Member{
-		Name:     "Rajya Bala(Aitha)",
+		Name:     "Rajya Bala - Janardhan",
 		Gender:   types.Female,
     Children: []*types.Member{&dimbeswar.Dimbeswar, &kankeshwara.Kankeshwara, &nandeshwar.Nandeshwar, &suchitra.Suchitra, },
 	}
